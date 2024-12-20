@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "fee97c29-5313-41d3-b0a7-97c4233a10ed",
+		"name": "TrackingNumberGenerator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3830488"
+	},
+	"item": [
+		{
+			"name": "GetNextTrackingNumber",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://trackingnumbergenerator.df.r.appspot.com/next-tracking-number?origin_country_id=MY&destination_country_id=ID&weight=1.234&created_at=2018-11-20T19:29:32+08:00&customer_id=de619854-b59b-425e-9db4-943979e1bd49&customer_name=RedBox Logistics&customer_slug=redbox-logistics",
+					"protocol": "https",
+					"host": [
+						"trackingnumbergenerator",
+						"df",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"next-tracking-number"
+					],
+					"query": [
+						{
+							"key": "origin_country_id",
+							"value": "MY"
+						},
+						{
+							"key": "destination_country_id",
+							"value": "ID"
+						},
+						{
+							"key": "weight",
+							"value": "1.234"
+						},
+						{
+							"key": "created_at",
+							"value": "2018-11-20T19:29:32+08:00"
+						},
+						{
+							"key": "customer_id",
+							"value": "de619854-b59b-425e-9db4-943979e1bd49"
+						},
+						{
+							"key": "customer_name",
+							"value": "RedBox Logistics"
+						},
+						{
+							"key": "customer_slug",
+							"value": "redbox-logistics"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
